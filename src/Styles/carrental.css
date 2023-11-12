@@ -1,0 +1,112 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .roomdetails{
+    
+    height: 75vh;
+    width: 120vh;
+    margin: 0 auto;
+    margin-top: 20px;
+background-color: rgb(255, 255, 255);
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(189, 189, 189, 0.724);
+overflow: hidden;
+  }
+
+  .roomdetails>.user-room{
+    
+    height: 42vh;
+    width: 150vh;
+    margin: 0 auto;
+display: flex;
+  }
+
+  .roomdetails>.user-room>.user,.roomdetails>.user-room>.room{
+    
+    height: 40vh;
+    width: 75vh;
+
+
+  }
+
+  .roomdetails>.user-room>.user>h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+  .roomdetails>.user-room>.user>.user-data{
+  color: red;
+  }
+  .roomdetails>.user-room>.room>h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+
+  .roomdetails>.user-room>.room>h3>button{
+  width: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  }
+  .roomdetails>.user-room>.room>.user-data{
+  color: red;
+  }
+  .roomdetails>.cost-but{
+    width: 150vh;
+    height: 25vh;
+    display: flex;
+    border-top: 2px solid rgb(87, 87, 87);
+    }
+    .roomdetails>.cost-but>.cost{
+      width: 70vh;
+      height: 25vh;
+      /* display: flex; */
+      }
+      .roomdetails>.cost-but>.but{
+        width: 50vh;
+        height: 25vh;
+display:  flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+        }
+
+
+        .roomdetails>.cost-but>.cost>h3{
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          margin-top: 10px;
+          margin-left: 20px;
+        }
+        .roomdetails>.cost-but>.cost>.user-data{
+        color: red;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+      .roomdetails>.cost-but>.but>.user-data{
+        color: red;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+
+
+        .roomdetails>.cost-but>.but>h2{
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          /* margin-top: 10px; */
+          margin-left: 20px;
+
+        }
+
+
+        .roomdetails>.cost-but>.but>center>.costbutton{
+          width: 25vh;
+          height: 8vh;
+        margin-top: -20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 20px;
+          }
+        
+  

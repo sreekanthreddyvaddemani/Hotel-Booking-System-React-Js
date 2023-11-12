@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.spantab{
+    height: 100%;
+    width:100%;
+ }
+ 
+.buslist{
+    height: 230px;
+    width:1180px;
+    border: 1px solid #c7c7c7;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px auto;
+    border-radius: 20px;
+}
+.buslist:hover{
+    box-shadow: 0px 0px 5px 5px #e3e2e2;
+
+}
+.buslist>.busimg{
+    height: 230px;
+    width:300px;
+}
+.buslist>.busimg>img{
+    height: 230px;
+    width:300px;
+    border-radius: 20px;
+
+}
+.buslist>.busimg>img:hover{
+    height: 230px;
+    width:300px;
+    border-radius: 20px;
+}
+
+.buslist>.busd{
+    height: 230px;
+    width:650px;
+    border-right: 1px solid #e7e7e7;
+    border-left: 1px solid #e7e7e7;
+}
+.buslist>.busd>.busdata{
+    height: 70px;
+    width:650px;
+    display: flex;
+}
+
+.buslist>.busd>.busdata>.travelname{
+    height: 70px;
+    width:300px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.buslist>.busd>.busdata>.travelname>h1{
+    color: rgb(255, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+  
+}
+
+.buslist>.busd>.busdata>.timedata{
+    height: 70px;
+    width:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buslist>.busd>.busdata>.timedata>h3{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgb(63, 47, 47);
+}
+
+
+
+.buslist>.ticketcost{
+    height: 200px;
+    width:220px;
+}
+.buslist>.busd>.dropdata{
+    height: 120px;
+    width:650px;
+   
+}
+.buslist>.busd>.dropdata>h2{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-left: 18px;
+}
+.buslist>.busd>.dropdata>h2:last-child{
+    margin-top: 15px;
+}
+
+
+
+ 
+    
+
+
+
+
+
+.buslist>.busd>.busdata>.timedata>.rate{
+    height: 40px;
+    width:115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.buslist>.busd>.busdata>.timedata>.rate>.rate1{
+    height: 30px;
+    width:55px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;     
+     background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buslist>.busd>.busdata>.timedata>.rate>.rate2{
+    height: 30px;
+    width:60px;
+background-color: rgb(212, 192, 76);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.buslist>.busd>.busdata>.timedata>.rate>.rate1>p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 900;
+color: #3d3c3c;
+}
+.buslist>.busd>.busdata>.timedata>.rate>.rate2>p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 900;
+color: #3d3c3c;
+
+
+}
+
+.buslist>.ticketcost>center>h3{
+color: rgb(78, 78, 78);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 900;
+margin-top: 10px;
+}
+
+.buslist>.ticketcost>center>h1{
+    color: rgb(255, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    margin-top: 10px;
+    }
+
+.buslist>.ticketcost>center>h4{
+    color: rgb(53, 166, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    margin-top: 20px;
+
+    }
+  
+
+.buslist>.ticketcost>center>#costbutton{
+    /* background-color: yellow; */
+    margin-top: 20px;
+    height: 35px;
+    width: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1200;
+    font-size: larger;
+
+    
+
+}
+
+
+.dropdown{
+    height: 30px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+}
+.dropdown>li{
+    height: 25px;
+    width:auto;
+list-style-type: none;
+margin-left: 15px;
+margin-right: 30px;
+}
+.dropdown>li>a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-decoration: none;
+}
+
+
+
+

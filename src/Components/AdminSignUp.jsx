@@ -30,7 +30,7 @@ let passwordData=(e)=>{
 let handleSubmit=(e)=>{
     e.preventDefault()
 let data={name,email,phone,password}
-axios.post(`http://localhost:8080/admin`,data)
+axios.post(`http://13.234.127.236:8080/admin`,data)
 .then((res)=>{
     toast.success("Admin added Successfully",{
       position:toast.POSITION.TOP_CENTER

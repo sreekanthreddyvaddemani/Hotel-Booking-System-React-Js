@@ -39,7 +39,7 @@ let navigate =useNavigate()
     let handleSubmit=(e)=>{
         e.preventDefault()
         let data={name,email,phone,password,dob,adhaar}
-    axios.post(`http://localhost:8080/users`,data)
+    axios.post(`http://13.234.127.236:8080/users`,data)
     .then(()=>{
         toast.success("Welcome User Login Page",{
             position:toast.POSITION.TOP_CENTER

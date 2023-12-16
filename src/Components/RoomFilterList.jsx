@@ -33,7 +33,7 @@ let booknow=(value)=>{
 
 
 useEffect(()=>{
-    axios.get(`http://localhost:8080/hotel/${index}`)
+    axios.get(`http://13.234.127.236:8080/hotel/${index}`)
     .then((res)=>{
       setHotel(res.data.data)
     setContent(res.data.data.rooms)

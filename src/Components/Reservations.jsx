@@ -20,14 +20,14 @@ let navigate=useNavigate()
   }
 
 let accepted=(value)=>{
-  axios.post(`http://localhost:8080/roombook/accepted/${index}`,value).then((res)=>{
+  axios.post(`http://13.234.127.236:8080/roombook/accepted/${index}`,value).then((res)=>{
     window.location.reload(false)
   }).catch((err)=>{
     alert("SOME THING IS WRONG")
   })
 }
 let rejected=(value)=>{
-  axios.post(`http://localhost:8080/roombook/rejected/${index}`,value).then((res)=>{
+  axios.post(`http://13.234.127.236:8080/roombook/rejected/${index}`,value).then((res)=>{
     window.location.reload(false)
   }).catch((err)=>{
     alert("SOME THING IS WRONG")
@@ -37,7 +37,7 @@ let rejected=(value)=>{
 
 
   useEffect(()=>{
-    axios.get(`http://localhost:8080/hotel/${index}`).then((response)=>{
+    axios.get(`http://13.234.127.236:8080/hotel/${index}`).then((response)=>{
 setContent(response.data.data.roombooking)
   }).catch(()=>{
     alert("someThing is wrong")

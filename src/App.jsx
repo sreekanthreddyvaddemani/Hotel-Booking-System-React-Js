@@ -16,7 +16,6 @@ import RoomFilterList from './Components/RoomFilterList'
 import NavUser from './Components/NavUser'
 import UserHomePage from './Components/UserHomePage'
 import BookingList from './Components/BookingList'
-import Offers from './Components/Offers'
 import AddRoom from './Components/AddRoom'
 import RoomList from './Components/RoomList'
 import RoomBooking from './Components/RoomBooking'
@@ -43,7 +42,6 @@ const App = () => {
            <Route path='/nav' element={<Navbar/>}/>
            <Route path='/bookinglist' element={<BookingList/>}/>
            <Route path="/*" element={<Error/>}/>
-           <Route path="/offers" element={<Offers/>}/>
            <Route path="/roombook/:index" element={<RoomFilterList/>}/>
            <Route path="/addroom/:index" element={<AddRoom/>}/>
            <Route path="/acceptedlist/:index" element={<AcceptedList/>}/>

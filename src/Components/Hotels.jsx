@@ -29,10 +29,9 @@ let filter=JSON.parse(localStorage.getItem('filter'))
      }
 
      useEffect(()=>{
-      axios.get(`http://localhost:8080/hotel/filter?address=${filter.address}&dop=${filter.dop}`)
+      axios.get(`http://13.234.127.236:8080/hotel/filter?address=${filter.address}&dop=${filter.dop}`)
   .then((res)=>{
-    console.log(res.data.data)
-  setContent(res.data.data)
+    setContent(res.data.data)
   }).catch(()=>{
     toast.error("Data Not Found",{
       position:toast.POSITION.TOP_CENTER

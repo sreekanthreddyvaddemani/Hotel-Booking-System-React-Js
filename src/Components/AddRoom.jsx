@@ -49,7 +49,7 @@ let handleSubmit=(e)=>{
     e.preventDefault()
     let status="NOT BOOKED";
     let data={room_no,cost,no_beds,room_type,acOrNonac,no_of_members,roomimg,status}
-axios.post(`http://localhost:8080/hotel/room/${index}`,data)
+axios.post(`http://13.234.127.236:8080/hotel/room/${index}`,data)
 .then(()=>{
 
 toast.success("Room Added",{

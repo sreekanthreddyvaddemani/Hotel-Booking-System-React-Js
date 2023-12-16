@@ -22,7 +22,7 @@ let phoneData=(e)=>{
 }
    let handleLogin=(e)=>{
 e.preventDefault()
-        axios.post(`http://localhost:8080/admin/verifybyphone?phone=${phone}&password=${password}`)
+        axios.post(`http://13.234.127.236:8080/admin/verifybyphone?phone=${phone}&password=${password}`)
         .then((response)=>{   
             localStorage.setItem("admin",JSON.stringify(response.data.data))
             toast.success("Welcome to Admin Home Page",{

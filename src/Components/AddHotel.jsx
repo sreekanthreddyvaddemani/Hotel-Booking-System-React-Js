@@ -37,8 +37,7 @@ let handleSubmit=(e)=>{
     e.preventDefault()
 
     let data={hotelname,address,no_of_rooms,hotelimg,dop}
-    console.log(data);
-axios.post(`http://localhost:8080/hotel/${admin.id}`,data)
+axios.post(`http://13.234.127.236:8080/hotel/${admin.id}`,data)
 .then(()=>{
 toast.success("Hotel Added Successfully",{
     position:toast.POSITION.TOP_CENTER

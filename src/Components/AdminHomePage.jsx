@@ -18,10 +18,7 @@ const AdminHomePage = () => {
 </Routes>
 
 
-<div className="adminhome">
 
-  
-</div>
     </div>
   )
 }

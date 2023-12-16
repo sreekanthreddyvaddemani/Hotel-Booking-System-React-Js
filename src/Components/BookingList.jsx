@@ -23,9 +23,8 @@ let user=JSON.parse(localStorage.getItem('user'))
 
 
   useEffect(()=>{
-    axios.get(`http://localhost:8080/users/${user.id}`).then((response)=>{
+    axios.get(`http://13.234.127.236:8080/users/${user.id}`).then((response)=>{
 setContent(response.data.data.roombokings)
-console.log(response.data.data);
   }).catch(()=>{
     alert("someThing is wrong")
   })

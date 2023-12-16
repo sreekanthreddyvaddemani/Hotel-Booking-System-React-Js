@@ -15,7 +15,6 @@ import NavUser from './NavUser'
 const Offers = () => {
   return (
     <div>
-      <NavUser/>
 <div className="offer-component">
   <br />
 <center><h2>OFFERS</h2></center>
@@ -48,7 +47,59 @@ const Offers = () => {
 </div>
 <div className="box-temp">
 <div className="box-img">
-<img src={img16} alt="" />
+<img src={img17} alt="" />
+</div>
+<div className="box-details">
+<div className="box-card">
+  <img src={logo5} alt="" />
+<h3>London & Paris</h3>
+  <p>One way Flight</p>
+  <p>From <b>$399.00</b><a href="">Read Details &gt;</a> </p>
+</div>
+</div>
+</div>
+<div className="box-temp">
+<div className="box-img">
+<img src={img18} alt="" />
+</div>
+<div className="box-details">
+<div className="box-card">
+  <img src={logo5} alt="" />
+<h3>London & Paris</h3>
+  <p>One way Flight</p>
+  <p>From <b>$399.00</b><a href="">Read Details &gt;</a> </p>
+</div>
+</div>
+</div>
+<div className="box-temp">
+<div className="box-img">
+<img src={img19} alt="" />
+</div>
+<div className="box-details">
+<div className="box-card">
+  <img src={logo5} alt="" />
+<h3>London & Paris</h3>
+  <p>One way Flight</p>
+  <p>From <b>$399.00</b><a href="">Read Details &gt;</a> </p>
+</div>
+</div>
+</div>
+<div className="box-temp">
+<div className="box-img">
+<img src={img20} alt="" />
+</div>
+<div className="box-details">
+<div className="box-card">
+  <img src={logo5} alt="" />
+<h3>London & Paris</h3>
+  <p>One way Flight</p>
+  <p>From <b>$399.00</b><a href="">Read Details &gt;</a> </p>
+</div>
+</div>
+</div>
+<div className="box-temp">
+<div className="box-img">
+<img src={img15} alt="" />
 </div>
 <div className="box-details">
 <div className="box-card">
@@ -74,7 +125,59 @@ const Offers = () => {
 </div>
 <div className="box-temp">
 <div className="box-img">
-<img src={img16} alt="" />
+<img src={img17} alt="" />
+</div>
+<div className="box-details">
+<div className="box-card">
+  <img src={logo5} alt="" />
+<h3>London & Paris</h3>
+  <p>One way Flight</p>
+  <p>From <b>$399.00</b><a href="">Read Details &gt;</a> </p>
+</div>
+</div>
+</div>
+<div className="box-temp">
+<div className="box-img">
+<img src={img18} alt="" />
+</div>
+<div className="box-details">
+<div className="box-card">
+  <img src={logo5} alt="" />
+<h3>London & Paris</h3>
+  <p>One way Flight</p>
+  <p>From <b>$399.00</b><a href="">Read Details &gt;</a> </p>
+</div>
+</div>
+</div>
+<div className="box-temp">
+<div className="box-img">
+<img src={img19} alt="" />
+</div>
+<div className="box-details">
+<div className="box-card">
+  <img src={logo5} alt="" />
+<h3>London & Paris</h3>
+  <p>One way Flight</p>
+  <p>From <b>$399.00</b><a href="">Read Details &gt;</a> </p>
+</div>
+</div>
+</div>
+<div className="box-temp">
+<div className="box-img">
+<img src={img20} alt="" />
+</div>
+<div className="box-details">
+<div className="box-card">
+  <img src={logo5} alt="" />
+<h3>London & Paris</h3>
+  <p>One way Flight</p>
+  <p>From <b>$399.00</b><a href="">Read Details &gt;</a> </p>
+</div>
+</div>
+</div>
+<div className="box-temp">
+<div className="box-img">
+<img src={img15} alt="" />
 </div>
 <div className="box-details">
 <div className="box-card">
@@ -100,7 +203,7 @@ const Offers = () => {
 </div>
 <div className="box-temp">
 <div className="box-img">
-<img src={img16} alt="" />
+<img src={img17} alt="" />
 </div>
 <div className="box-details">
 <div className="box-card">
@@ -113,111 +216,7 @@ const Offers = () => {
 </div>
 <div className="box-temp">
 <div className="box-img">
-<img src={img16} alt="" />
-</div>
-<div className="box-details">
-<div className="box-card">
-  <img src={logo5} alt="" />
-<h3>London & Paris</h3>
-  <p>One way Flight</p>
-  <p>From <b>$399.00</b><a href="">Read Details &gt;</a> </p>
-</div>
-</div>
-</div>
-<div className="box-temp">
-<div className="box-img">
-<img src={img16} alt="" />
-</div>
-<div className="box-details">
-<div className="box-card">
-  <img src={logo5} alt="" />
-<h3>London & Paris</h3>
-  <p>One way Flight</p>
-  <p>From <b>$399.00</b><a href="">Read Details &gt;</a> </p>
-</div>
-</div>
-</div>
-<div className="box-temp">
-<div className="box-img">
-<img src={img16} alt="" />
-</div>
-<div className="box-details">
-<div className="box-card">
-  <img src={logo5} alt="" />
-<h3>London & Paris</h3>
-  <p>One way Flight</p>
-  <p>From <b>$399.00</b><a href="">Read Details &gt;</a> </p>
-</div>
-</div>
-</div>
-<div className="box-temp">
-<div className="box-img">
-<img src={img16} alt="" />
-</div>
-<div className="box-details">
-<div className="box-card">
-  <img src={logo5} alt="" />
-<h3>London & Paris</h3>
-  <p>One way Flight</p>
-  <p>From <b>$399.00</b><a href="">Read Details &gt;</a> </p>
-</div>
-</div>
-</div>
-<div className="box-temp">
-<div className="box-img">
-<img src={img16} alt="" />
-</div>
-<div className="box-details">
-<div className="box-card">
-  <img src={logo5} alt="" />
-<h3>London & Paris</h3>
-  <p>One way Flight</p>
-  <p>From <b>$399.00</b><a href="">Read Details &gt;</a> </p>
-</div>
-</div>
-</div>
-<div className="box-temp">
-<div className="box-img">
-<img src={img16} alt="" />
-</div>
-<div className="box-details">
-<div className="box-card">
-  <img src={logo5} alt="" />
-<h3>London & Paris</h3>
-  <p>One way Flight</p>
-  <p>From <b>$399.00</b><a href="">Read Details &gt;</a> </p>
-</div>
-</div>
-</div>
-<div className="box-temp">
-<div className="box-img">
-<img src={img16} alt="" />
-</div>
-<div className="box-details">
-<div className="box-card">
-  <img src={logo5} alt="" />
-<h3>London & Paris</h3>
-  <p>One way Flight</p>
-  <p>From <b>$399.00</b><a href="">Read Details &gt;</a> </p>
-</div>
-</div>
-</div>
-<div className="box-temp">
-<div className="box-img">
-<img src={img16} alt="" />
-</div>
-<div className="box-details">
-<div className="box-card">
-  <img src={logo5} alt="" />
-<h3>London & Paris</h3>
-  <p>One way Flight</p>
-  <p>From <b>$399.00</b><a href="">Read Details &gt;</a> </p>
-</div>
-</div>
-</div>
-<div className="box-temp">
-<div className="box-img">
-<img src={img16} alt="" />
+<img src={img18} alt="" />
 </div>
 <div className="box-details">
 <div className="box-card">
@@ -230,7 +229,7 @@ const Offers = () => {
 </div>
 <div className="box-temp">
 <div className="box-img">
-<img src={img17} alt="" />
+<img src={img19} alt="" />
 </div>
 <div className="box-details">
 <div className="box-card">
@@ -244,7 +243,7 @@ Bangkok & Australia</h3>
 </div>
 <div className="box-temp">
 <div className="box-img">
-<img src={img18} alt="" />
+<img src={img20} alt="" />
 </div>
 <div className="box-details">
 <div className="box-card">
@@ -257,7 +256,7 @@ Bangkok & Australia</h3>
 </div>
 <div className="box-temp">
 <div className="box-img">
-<img src={img19} alt="" />
+<img src={img15} alt="" />
 </div>
 <div className="box-details">
 <div className="box-card">
@@ -270,7 +269,7 @@ Bangkok & Australia</h3>
 </div>
 <div className="box-temp">
 <div className="box-img">
-<img src={img20} alt="" />
+<img src={img18} alt="" />
 </div>
 <div className="box-details">
 <div className="box-card">
@@ -283,7 +282,7 @@ Bangkok & Australia</h3>
 </div>
 <div className="box-temp">
 <div className="box-img">
-<img src={img20} alt="" />
+<img src={img16} alt="" />
 </div>
 <div className="box-details">
 <div className="box-card">

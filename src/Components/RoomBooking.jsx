@@ -16,19 +16,12 @@ const RoomBooking = () => {
     let hotel=JSON.parse(localStorage.getItem('hotel'))
     let user=JSON.parse(localStorage.getItem('user'))
     let room=JSON.parse(localStorage.getItem('room'))
-  
-
-
-
-
 
 let adddata=(e)=>{
   setNoofrooms(no_of_rooms+1)
 }
 let subdata=(e)=>{
   setNoofrooms(no_of_rooms-1)
-
-
 }
 
 
@@ -46,7 +39,7 @@ let subdata=(e)=>{
       let status="PENDING"
       let time_of_booking= new Date().toLocaleString();
       let data={customer_name,customer_phone,customer_email,cost,time_of_booking,no_of_rooms,room_no,status}
-    axios.post(`http://localhost:8080/roombook/${user.id}/${hotel.id}`,data).then(()=>{
+    axios.post(`http://13.234.127.236:8080/roombook/${user.id}/${hotel.id}`,data).then(()=>{
 toast.success("DATA SUBMITTED WAIT FOR RESPONSE",{
   position:toast.POSITION.TOP_CENTER
 })

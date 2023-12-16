@@ -22,8 +22,8 @@ let navigate=useNavigate()
 
 
   useEffect(()=>{
-    axios.get(`http://localhost:8080/hotel/${index}`).then((response)=>{
-setContent(response.data.data.roombooking)
+    axios.get(`http://13.234.127.236:8080/hotel/${index}`).then((response)=>{
+     setContent(response.data.data.roombooking)
   }).catch(()=>{
     alert("someThing is wrong")
   })
@@ -46,7 +46,7 @@ setContent(response.data.data.roombooking)
 								</tr>
                 {
                 content.map((x)=>{
-                  if (x.status === 'ACCEPTED') {
+                  if (x.status === 'ACCEPETED') {
                     return(
                       <tr>
                       <td>{x.id}</td>

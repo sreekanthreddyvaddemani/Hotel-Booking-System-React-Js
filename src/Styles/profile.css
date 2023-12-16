@@ -1,0 +1,39 @@
+
+.navbar-top {
+    color: #333;
+    box-shadow: 0px 4px 8px 0px rgb(203, 203, 203);
+    height: 70px;
+}
+
+.title-pro {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 15px;
+    position: absolute;
+    left: 45%;
+}
+.navbar-top>ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 18px 50px 0 40px;
+}
+
+.navbar-top>ul>li {
+    float: left;
+}
+
+.navbar-top>ul>li>a {
+    color: #333;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.main>.card>.card-body>table{
+    border: none;
+    font-size: 20px;
+    height: 270px;
+    width: 50%;
+}
+

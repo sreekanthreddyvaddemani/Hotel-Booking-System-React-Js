@@ -18,7 +18,7 @@ let admin=JSON.parse(localStorage.getItem('admin'))
 let navigate=useNavigate()
 let {index}=useParams()
 useEffect(()=>{
-  axios.get(`http://localhost:8080/hotel/${index}`).then((response)=>{
+  axios.get(`http://13.234.127.236:8080/hotel/${index}`).then((response)=>{
     console.log(response.data.data);
     setContent(response.data.data.rooms)
   })
@@ -26,30 +26,6 @@ useEffect(()=>{
       console.log("did not get the data");
   })
       },[])
-
-
-//     let deleteData=(value)=>{
-//       axios.get(`http://localhost:8080/bus/delete/${value}`).then(()=>{
-// alert("Bus Deleted Successfully")
-// window.location.reload(false);
-//       }).catch(()=>{
-//         alert("Some Thing Is Wrong")
-//       })
-//   }
-
-//   let updateData=(value)=>{
-//     navigate(`/updatebus/${value}`)
-// }
-
-
-// let bookingTickets=(value)=>{
-//   axios.get(`http://localhost:8080/bus/${value}`).then((response)=>{
-//     localStorage.setItem("tickets",JSON.stringify(response.data.data.tickets))
-//     navigate('/adminhomepage/reservations')
-//   }).catch(()=>{
-//     alert("someThing is wrong")
-//   })
-// }
 let goBack=()=>{
   navigate("/adminhomepage")
       }
@@ -65,10 +41,6 @@ let goBack=()=>{
 									<th>ROOM TYPE</th>
 									<th>COST</th>
 									<th>NO OF MEMEBERS</th>
-
-
-
-                
 								</tr>
                 {
                 content.map((x)=>{
@@ -79,13 +51,7 @@ let goBack=()=>{
                       <td>{x.no_beds}</td>
                       <td>{x.room_type}-{x.acOrNonac}</td>
                       <td>{x.cost}</td>
-                      <td>{x.no_of_members}</td>
-
-
-                      
-
-               
-                     
+                      <td>{x.no_of_members}</td>             
                     </tr>
                     )
                 })

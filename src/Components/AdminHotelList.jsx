@@ -15,22 +15,14 @@ let [content,setContent]=useState([])
 let admin=JSON.parse(localStorage.getItem('admin'))
 let navigate=useNavigate()
 useEffect(()=>{
-  axios.get(`http://localhost:8080/admin/hotels/${admin.id}`).then((response)=>{
-    console.log(response.data.data);
+  axios.get(`http://13.234.127.236:8080/admin/hotels/${admin.id}`).then((response)=>{
     setContent(response.data.data)
   })
   .catch(()=>{
       console.log("did not get the data");
   })
       },[])
-    let deleteData=(value)=>{
-      axios.get(`http://localhost:8080/bus/delete/${value}`).then(()=>{
-alert("Bus Deleted Successfully")
-window.location.reload(false);
-      }).catch(()=>{
-        alert("Some Thing Is Wrong")
-      })
-  }
+  
 
   let addData=(value)=>{
     navigate(`/addroom/${value}`)
@@ -67,7 +59,7 @@ let goBack=()=>{
                 content.map((x)=>{
                     return(
                       <tr>
-                         <td><img src={x.hotelimg} alt="" /></td>
+                      <td><img src={x.hotelimg} alt="" /></td>
                       <td>{x.id}</td>
                       <td>{x.hotelname}</td>
                       <td>{x.address}</td>
@@ -75,16 +67,16 @@ let goBack=()=>{
                       
 
                       <td id="hbut">
-                        <Button variant="contained" color="primary"  disableElevation focused onClick={()=>{bookingRooms(x.id)}}>BOOKINGS</Button>                       
+                        <Button className="crud" variant="contained" color="primary"  disableElevation focused onClick={()=>{bookingRooms(x.id)}}>BOOKINGS</Button>                       
                   
                     
-                      <Button variant="contained" color="success"  disableElevation focused onClick={()=>{addData(x.id)}}>ADD ROOM</Button> 
+                      <Button className="crud" variant="contained" color="success"  disableElevation focused onClick={()=>{addData(x.id)}}>ADD ROOM</Button> 
                       
                   
                       
-                      <Button variant="contained" color="error"  disableElevation focused onClick={()=>{roomlist(x.id)}}>ROOMS</Button> 
+                      <Button className="crud" variant="contained" color="error"  disableElevation focused onClick={()=>{roomlist(x.id)}}>ROOMS</Button> 
                       
-                      <Button variant="contained" color="secondary"  disableElevation focused onClick={()=>{customer(x.id)}}>ACCEPTED</Button> 
+                      <Button className="crud" variant="contained" color="secondary"  disableElevation focused onClick={()=>{customer(x.id)}}>ACCEPTED</Button> 
 
                       </td>
                      
@@ -104,4 +96,4 @@ let goBack=()=>{
   )
 }
 
-export default AdminBusList
+export default AdminBusList 

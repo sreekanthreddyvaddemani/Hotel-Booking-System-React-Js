@@ -23,7 +23,7 @@ const UserLogin = () => {
      let handleLogin=(e)=>{
   e.preventDefault()
       let data={email,password}
-          axios.post(`http://localhost:8080/users/verifybyemail?email=${email}&password=${password}`,data)
+          axios.post(`http://13.234.127.236:8080/users/verifybyemail?email=${email}&password=${password}`,data)
           .then((response)=>{
               localStorage.setItem("user",JSON.stringify(response.data.data))
               toast.success("Welcome to User Home Page",{

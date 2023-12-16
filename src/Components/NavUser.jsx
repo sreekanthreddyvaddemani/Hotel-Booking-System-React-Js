@@ -38,6 +38,9 @@ let navigate=useNavigate()
   let submit=()=>{
     navigate("/")
   }
+  let profile=()=>{
+    navigate("/userhome/profile")
+  }
   return (
     <div>
       <div id="navuser">
@@ -62,7 +65,7 @@ let navigate=useNavigate()
 
 
                 <div className="conuser"><LocalOfferIcon style={{ color: "white" }}/>  
-                <li id=""><Link to="/offers">OFFERS</Link></li></div>
+                <li id=""><Link to="/userhome/offers">OFFERS</Link></li></div>
 
                 </div>
                 
@@ -88,7 +91,7 @@ let navigate=useNavigate()
           'aria-labelledby': 'basic-button',
         }}
       >
-        <MenuItem >Profile</MenuItem>
+        <MenuItem onClick={profile}>Profile</MenuItem>
         <MenuItem onClick={logOut}>Logout</MenuItem>
       </Menu>
     </div>
